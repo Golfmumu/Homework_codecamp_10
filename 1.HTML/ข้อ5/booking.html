@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Booking Website</title>
+</head>
+<body>
+    <main>
+        <form action="/booking.php">
+            <table>
+                <tr>
+                    <th>Flying form</th>
+
+                    <th>Flying to</th>
+                </tr>
+
+                <tr>
+                    <td>
+                        <select name="place" id="">
+                            <option value="KaraChi, Paksi" selected="selected">KaraChi, Paksi</option>
+                            <option value="DMK, Bangkok" >DMK, Bangkok</option>
+                        </select>
+                    </td>
+
+                    <td>
+                        <select name="place" id="">
+                            <option value="KaraChi, Paksi" selected="selected">KaraChi, Paksi</option>
+                            <option value="DMK, Bangkok" >DMK, Bangkok</option>
+                        </select>
+                    </td>
+
+                </tr>
+
+                <tr>
+                    <td>Departing</td>
+                    <td>Returning</td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <input type="date" id="departing" name="departing">
+                    </td>
+
+                    <td>
+                        <input type="date" id="returning" name="returning">
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>Adult</td>
+                    <td>Child</td>
+                    <td>Infant</td>
+                    <td>Currency</td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="number" id="ault" name="adult-number">
+                    </td>
+                    <td>
+                        <input type="number" id="child" name="child-number">
+                    </td>
+                    <td>
+                        <input type="number" id="infant" name="infant-number">
+                    </td>
+                    <td>
+                        <select name="currency" id="">
+                        <option value="Bitcoin" selected="selected">BTC</option>
+                        <option value="Etherenum">ETH</option>
+                        <option value="Cardano">ADA</option>
+                        <option value="Dogecoin">DOGE</option>
+                    </select>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <input type="submit" value="Search">
+                    </td>
+                </tr>
+            </table>
+        </form>
+    </main>
+</body>
+</html>
