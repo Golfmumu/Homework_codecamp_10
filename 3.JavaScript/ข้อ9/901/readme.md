@@ -1,0 +1,10 @@
+# Codecamp #10
+1. Preechaya Teeravickasit
+2. JavaScript : Exercise ตัวดำเนินแบบตรรกะ   
+2.1 เลขที่ถูก alert เป็นลำดับสุดท้ายคือเลขอะไร  
+    let i = 3;  
+    while (i) {  
+        alert(i--);  
+    };  
+
+    // ตอบ 1

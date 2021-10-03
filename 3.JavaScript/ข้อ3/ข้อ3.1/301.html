@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript ลำดับที่ 3 ข้อ 1</title>
+</head>
+<body>
+    <h1>ผลลัพธ์ทั้ง console.log ทั้งสามคืออะไร</h1>
+
+    <h2> let name = 'Codecamp';</h2>
+    <br>
+    <h2>1. console.log(`hello ${1}`);</h2>
+    <p id='p1'></p>
+    <h2>2. console.log(`hello ${'name'}`);</h2>
+    <p id='p2'></p>
+    <h2>3. console.log(`hello ${name}`);</h2>
+    <p id='p3'></p>
+
+
+</body>
+<script>
+    let name = 'Codecamp';
+
+    console.log(`hello ${1}`);
+    console.log(`hello ${'name'}`);
+    console.log(`hello ${name}`);
+
+    document.querySelector('#p1').innerHTML = `Answer hello ${1}`;
+    document.querySelector('#p2').innerHTML = `Answer hello ${'name'}`;
+    document.querySelector('#p3').innerHTML = `Answer hello ${name}`;
+</script>
+</html>
